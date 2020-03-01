@@ -1,0 +1,236 @@
+{
+  "general": {
+    "search": "Search",
+    "titleNewPlan": "Create new operation plan"
+  },
+  "button": {
+    "map": "Map",
+    "plans": "Plans",
+    "continue": "Continue",
+    "back": "Back",
+    "create": "Create Plan",
+    "save": "Save",
+    "imgSelect": "Choose image",
+    "imgChange": "Change image",
+    "addOperationMap": "Add map",
+    "add": "Add",
+    "abort": "Abort"
+  },
+  "toggleButton": {
+    "on": "On",
+    "off": "Off"
+  },
+  "sweetAlert": {
+    "remove": {
+      "plan": {
+        "title": "Delete operation plan",
+        "text": "Do you really delete the operation plan?",
+        "removed": "Operation plan was successfully deleted."
+      },
+      "dataFields": {
+        "title": "Delete individually data fields",
+        "text": "Do you really delete the data?",
+        "removed": "Data was successfully deleted."
+      },
+      "settingsUser": {
+        "title": "Delete user",
+        "text": "Do you really delete the user?",
+        "removed": "User was successfully deleted."
+      },
+      "abort": "Abort",
+      "remove": "Remove"
+    },
+    "save": "Data saved successfully."
+  },
+  "dialog": {
+    "dataFields": {
+      "titleAdd": "Add neu individual data field",
+      "titleEdit": "Edit the individual data field",
+      "name": "Name",
+      "typ": "Typ"
+    },
+    "settingsUser": {
+      "titleAdd": "Create neu user",
+      "titleEdit": "Edit user"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "templates": "Templates",
+    "dataFields": "Data fields",
+    "settings": {
+      "settings": "Settings",
+      "general": "General",
+      "maps": "Maps",
+      "layers": "Layers",
+      "interfaces": "Interfaces",
+      "license": "License",
+      "users": "Users"
+    },
+    "doku": "Documentation",
+    "user": "User",
+    "lang": "Language",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "popUp": {
+      "reference": "Reference:",
+      "title": "Title:",
+      "address": "Address:",
+      "features": "Features:",
+      "action": "Action:"
+    }
+  },
+  "plans": {
+    "operationPlan": "Operation plan",
+    "capture": "Capture",
+    "captureCan": "No capture, can",
+    "captureMust": "No capture, must",
+    "status": "Status",
+    "features": "Features",
+    "reference": "Reference",
+    "title": "Title",
+    "address": "Address",
+    "coords": "Coordinates",
+    "time": "Time",
+    "author": "Author",
+    "action": "Action",
+    "entries": "Entries:",
+    "entries2": "entries",
+    "show": "Show",
+    "of": "of",
+    "noSearch1": "Your search for",
+    "noSearch2": "returned no hits.",
+    "noData": "No data available :("
+  },
+  "stepBar": {
+    "address": "Address",
+    "place": "Confirm place",
+    "fix": "Fixed data",
+    "individual": "Individual data",
+    "templates": "Templates",
+    "preview": "Preview"
+  },
+  "planCreate": {
+    "street": "Street",
+    "num": "Num.",
+    "zip": "ZIP",
+    "city": "City",
+    "status": "Status",
+    "select": "Select status"
+  },
+  "planFixe": {
+    "title": "Title",
+    "reference": "Reference",
+    "image": "Upload image",
+    "operationMap": "Operation map",
+    "color": "Color",
+    "features": "Features",
+    "selectFeatures": "Select features",
+    "material": "Required materials",
+    "info": "Important information",
+    "remarks": "Remarks"
+  },
+  "planTemplates": {
+    "coverTitle": "Cover title (Fixed data fields)",
+    "contentTitle": "Content pages (Individual data fields)",
+    "contentText": "Data fields available",
+    "templateSelect": "Select templates:"
+  },
+  "planExport": {
+    "downloadPdf": "PDF download"
+  },
+  "templates": {
+    "title": "Templates"
+  },
+  "dataFields": {
+    "title": "Data fields",
+    "fixTitle": "Fixed data fields",
+    "semiFixTitle": "Semi-Fixed data fields",
+    "individualTitle": "Individual data fields",
+    "individual": "Individual",
+    "table": {
+      "header": {
+        "position": "Position",
+        "name": "Name",
+        "typ": "Typ",
+        "art": "Art",
+        "action": "Action"
+      },
+      "name": {
+        "title": "Title",
+        "reference": "Reference",
+        "img": "Image of the object",
+        "operationMap": "Operation map",
+        "material": "Required materials",
+        "info": "Important Information",
+        "remarks": "Remarks"
+      },
+      "typ": {
+        "textarea": "Textarea",
+        "img": "Image",
+        "map": "Map",
+        "textEditor": "Text editor"
+      }
+    }
+  },
+  "settingsGeneral": {
+    "title": "General",
+    "location": "Location"
+  },
+  "settingsMaps": {
+    "title": "Maps",
+    "name": "Name",
+    "typ": "Typ",
+    "status": "Status",
+    "default": "Default"
+  },
+  "settingsLayers": {
+    "title": "Layers",
+    "name": "Name",
+    "source": "Source",
+    "typ": "Typ",
+    "active": "Active"
+  },
+  "settingsInterfaces": {
+    "title": "Interfaces",
+    "status": "Status",
+    "accesskey": "Access key"
+  },
+  "settingsLicence": {
+    "title": "Licence",
+    "price": "Price on request",
+    "basic": {
+      "title": "Basic",
+      "maps": "15 Operation plan",
+      "templates": "5 Templates",
+      "users": "2 Users",
+      "memory": "100 MB memory"
+    },
+    "standart": {
+      "title": "Standard",
+      "maps": "50 Operation plan",
+      "templates": "All templates",
+      "users": "Unlimited users",
+      "memory": "5 GB memory"
+    },
+    "performance": {
+      "title": "Performance",
+      "maps": "Unlimited operation plan",
+      "templates": "All templates",
+      "users": "Unlimited users",
+      "memory": "10 GB memory"
+    }
+  },
+  "settingsUsers": {
+    "title": "Users",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "E-mail",
+    "authorization": "Authorization",
+    "action": "Action",
+    "view": "View",
+    "edit": "Edit",
+    "admin": "Admin"
+  }
+}

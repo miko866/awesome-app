@@ -1,0 +1,25 @@
+/*
+* Custom Vue2Leaflet
+*/
+
+.vue2leaflet-map {
+  z-index: 1;
+}
+
+// Description from OpenStreetMap
+.leaflet-control-attribution {
+  display: none !important;
+}
+.leaflet-control {
+  display: flex;
+}
+
+//? Second Zoom
+.leaflet-left {
+  left: -7em;
+}
+
+.leaflet-bar a:hover {
+  background-color: transparent;
+  color: $color-secondary-hover;
+}

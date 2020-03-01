@@ -1,0 +1,40 @@
+/*
+* Global Custom Classes
+*/
+
+//? Btn without router
+.no-padding .v-btn__content {
+  padding: unset;
+}
+
+.hover-icon:hover,
+.hover-icon:focus {
+  filter: invert(1);
+  cursor: pointer;
+  transition: $transition;
+}
+.hover-svg:hover,
+.hover-svg:focus {
+  color: $color-light;
+  cursor: pointer;
+}
+
+.hover-secondary:hover,
+.hover-secondary:focus {
+  color: $color-secondary;
+  cursor: pointer;
+  transition: $transition;
+}
+// Font Awesome
+.far,
+.fas {
+  cursor: pointer;
+  transition: $transition;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .mobile-title {
+    font-size: 2em !important;
+    text-align: center;
+  }
+}

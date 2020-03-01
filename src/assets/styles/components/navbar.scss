@@ -1,0 +1,128 @@
+/*
+* Navigation Navbar
+*/
+
+@import '@/assets/styles/app.scss';
+
+.navigation {
+  height: 100%;
+  overflow: scroll;
+  position: fixed;
+}
+
+// Vuetify only for Navbar
+.v-list__tile__avatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background-color: white;
+}
+
+.navbar-logo {
+  border-radius: 0;
+}
+
+// Vuetify Sub Menu
+.v-menu__content {
+  border-radius: 0;
+}
+
+.nav-icons {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: space-between;
+  padding-top: 5em;
+}
+
+.listitem {
+  padding-bottom: 1em;
+}
+
+.sub-menu {
+  &--title {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  &--size {
+    font-size: 0.9em;
+  }
+
+  &--element {
+    height: 2.3em;
+  }
+}
+
+.language-submenu {
+  display: flex;
+
+  &__item {
+    cursor: pointer;
+  }
+
+  &__img {
+    width: 1em;
+  }
+}
+
+.v-navigation-drawer {
+  z-index: 5;
+}
+
+.link {
+  font-size: 0.8em;
+  position: absolute;
+  top: 15px;
+  padding-left: 0.2em;
+}
+
+.submenu-color {
+  color: $color-black;
+}
+
+.nav-icons__bottom {
+  padding-bottom: 1em;
+}
+
+.toggle-menu {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  background-color: $color-main;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    background-color: $color-main-hover;
+  }
+
+  &--icon {
+    color: $color-white;
+
+    padding: 0.2em;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .nav-icons__top {
+    padding-bottom: 2em;
+  }
+
+  .navigation {
+    overflow-y: auto;
+  }
+}
+
+// iPhone 6, 7, & 8 in portrait & landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .sub-menu {
+    &--element {
+      padding-top: 0;
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "general": {
+    "search": "Suchen",
+    "titleNewPlan": "Einsatzplan erstellen"
+  },
+  "button": {
+    "map": "Karte",
+    "plans": "Liste",
+    "continue": "Weiter",
+    "back": "Zurück",
+    "create": "Plan erstellen",
+    "save": "Speichern",
+    "imgSelect": "Bild auswählen",
+    "imgChange": "Bild ändern",
+    "addOperationMap": "Karte bearbeiten",
+    "add": "Hinzufügen",
+    "abort": "Abbrechen"
+  },
+  "toggleButton": {
+    "on": "Ein",
+    "off": "Aus"
+  },
+  "sweetAlert": {
+    "remove": {
+      "plan": {
+        "title": "Einsatzplan löschen",
+        "text": "Möchten Sie den Einsatzplan wirklich Löschen?",
+        "removed": "Einsatzplan wurde erfolgreich gelöscht!"
+      },
+      "dataFields": {
+        "title": "Individuell Datenfelder löschen",
+        "text": "Möchten Sie das Daten wirklich Löschen?",
+        "removed": "Individuell Datenfeld  wurde erfolgreich gelöscht!"
+      },
+      "settingsUser": {
+        "title": "Benutzer löschen",
+        "text": "Möchten Sie den Benutzer wirklich Löschen?",
+        "removed": "Benutzer wurde erfolgreich gelöscht!"
+      },
+      "abort": "Abbrechen",
+      "remove": "Löschen"
+    },
+    "save": "Daten erfolgreich gespeichert!"
+  },
+  "dialog": {
+    "dataFields": {
+      "titleAdd": "Hinzufügen neue Individuell Datenfeld",
+      "titleEdit": "Bearbeiten den Individuell  Datenfeld",
+      "name": "Name",
+      "typ": "Typ"
+    },
+    "settingsUser": {
+      "titleAdd": "Neue Benutzer Erstellen",
+      "titleEdit": "Benutzer bearbeiten"
+    }
+  },
+  "navigation": {
+    "dashboard": "Übersicht",
+    "templates": "Vorlagen",
+    "dataFields": "Datenfelder",
+    "settings": {
+      "settings": "Einstellungen",
+      "general": "Allgemeines",
+      "maps": "Karten",
+      "layers": "Layers",
+      "interfaces": "Anbindungen",
+      "license": "Lizenz",
+      "users": "Benutzer"
+    },
+    "doku": "Dokumentation",
+    "user": "Benutzer",
+    "lang": "Sprache",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "popUp": {
+      "reference": "Referenz:",
+      "title": "Titel:",
+      "address": "Adresse:",
+      "features": "Merkmale:",
+      "action": "Aktionen:"
+    }
+  },
+  "plans": {
+    "operationPlan": "Einsatzpläne",
+    "capture": "Erfasst",
+    "captureCan": "Nicht erfasst, kann",
+    "captureMust": "Nicht erfasst, muss",
+    "status": "Status",
+    "features": "Merkmale",
+    "reference": "Referenz",
+    "title": "Titel",
+    "address": "Adresse",
+    "coords": "Koordinaten",
+    "time": "Zeitpunkt",
+    "author": "Autor",
+    "action": "Aktionen",
+    "entries": "Einträge:",
+    "entries2": "einträge",
+    "show": "Zeige",
+    "of": "von",
+    "noSearch1": "Ihre Suche nach",
+    "noSearch2": "ergab keine Treffer.",
+    "noData": "Keine Daten vorhanden :("
+  },
+  "stepBar": {
+    "address": "Adresse",
+    "place": "Ort bestätigen",
+    "fix": "Fixe Datenfelder",
+    "individual": "Individuelle Datenfelder",
+    "templates": "Vorlagen",
+    "preview": "Vorschau"
+  },
+  "planCreate": {
+    "street": "Strasse",
+    "num": "Nr.",
+    "zip": "PLZ",
+    "city": "Ort",
+    "status": "Status",
+    "select": "Status auswählen"
+  },
+  "planFixe": {
+    "title": "Titel",
+    "reference": "Referenz",
+    "image": "Bild laden",
+    "operationMap": "Interventionskarte",
+    "color": "Farbe",
+    "features": "Merkmale",
+    "selectFeatures": "Merkmale auswählen",
+    "material": "Benötigte Materialen",
+    "info": "Wichtige informationen",
+    "remarks": "Bemerkungen"
+  },
+  "planTemplates": {
+    "coverTitle": "Titelseite (Fixe Datenfelder)",
+    "contentTitle": "Inhaltsseiten (Individuelle Datenfelder)",
+    "contentText": "Datenfelder verfügbar",
+    "templateSelect": "Vorlage auswählen:"
+  },
+  "planExport": {
+    "downloadPdf": "PDF Herunterladen"
+  },
+  "templates": {
+    "title": "Vorlagen"
+  },
+  "dataFields": {
+    "title": "Datenfelder",
+    "fixTitle": "Fixen Datenfelder",
+    "semiFixTitle": "Semi-Fixen Datenfelder",
+    "individualTitle": "Individuell Datenfelder",
+    "individual": "Individuell",
+    "table": {
+      "header": {
+        "position": "Position",
+        "name": "Name",
+        "typ": "Typ",
+        "art": "Art",
+        "action": "Aktion"
+      },
+      "name": {
+        "title": "Titel",
+        "reference": "Referenz",
+        "img": "Bild des Objekts",
+        "operationMap": "Interventionskarte",
+        "material": "Benötigte Materialen",
+        "info": "Wichtige informationen",
+        "remarks": "Bemerkungen"
+      },
+      "typ": {
+        "textarea": "Text einzeilig",
+        "img": "Bild",
+        "map": "Karte",
+        "textEditor": "Texteditor"
+      }
+    }
+  },
+  "settingsGeneral": {
+    "title": "Allgemeines",
+    "location": "Standort"
+  },
+  "settingsMaps": {
+    "title": "Karten",
+    "name": "Name",
+    "typ": "Typ",
+    "status": "Status",
+    "default": "Standard"
+  },
+  "settingsLayers": {
+    "title": "Layers",
+    "name": "Name",
+    "source": "Quelle",
+    "typ": "Typ",
+    "active": "Aktiv"
+  },
+  "settingsInterfaces": {
+    "title": "Anbindungen",
+    "status": "Status",
+    "accesskey": "Access key"
+  },
+  "settingsLicence": {
+    "title": "Lizenz",
+    "price": "Preis auf Anfrage",
+    "basic": {
+      "title": "Basic",
+      "maps": "15 Einsatzpläne",
+      "templates": "5 Vorlagen",
+      "users": "2 Benutzer",
+      "memory": "100 MB Speicherplatz"
+    },
+    "standart": {
+      "title": "Standart",
+      "maps": "50 Einsatzpläne",
+      "templates": "Alle Vorlagen",
+      "users": "Unlimitiert Benutzer",
+      "memory": "5 GB Speicherplatz"
+    },
+    "performance": {
+      "title": "Performance",
+      "maps": "Unlimitiert Einsatzpläne",
+      "templates": "Alle Vorlagen",
+      "users": "Unlimitiert Benutzer",
+      "memory": "10 GB Speicherplatz"
+    }
+  },
+  "settingsUsers": {
+    "title": "Benutzer",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "authorization": "Berechtigung",
+    "action": "Aktion",
+    "view": "Ansehen",
+    "edit": "Bearbeiten",
+    "admin": "Admin"
+  }
+}
